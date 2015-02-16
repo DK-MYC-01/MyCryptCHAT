@@ -1,0 +1,120 @@
+object MyCryptCHATabout: TMyCryptCHATabout
+  Left = 230
+  Top = 21
+  Width = 978
+  Height = 585
+  BorderIcons = [biSystemMenu]
+  Caption = 'MyCryptCHATabout'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 962
+    Height = 546
+    Align = alClient
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Verdana'
+    Font.Style = []
+    Lines.Strings = (
+      
+        'MyCryptCHAT is a free Internet Chat Program, developed "in the s' +
+        'pirit of Edward Snowden".'
+      ''
+      
+        'This program only sends encrypted data over the Internet, using ' +
+        'SHA 256 and AES 256 bit encryption.'
+      
+        'Furthermore, each line send/received is checked to be OK, using ' +
+        'a CRC32 "checksum".'
+      ''
+      
+        'Each chat line send, is using a new, so called random "SALT". Th' +
+        'ereby each line you send is individually encrypted, '
+      'even if you send the same line/text content many times.'
+      ''
+      
+        'OBS: Remember to change the Password/Encryption Key! This is don' +
+        'e in the Setup menu. Change the Encryption Key every now and the' +
+        'n!'
+      
+        'Newer send any direct information about the Key you are using. Y' +
+        'ou can  agree on a "secret system" with your chat-partners, in o' +
+        'rder'
+      
+        'to create new Encryption Keys. E.g. you can use a certain book, ' +
+        'and select phrases from the book, based on e.g. date, time of da' +
+        'y etc.'
+      'and add some digits, according to "a clever system of your own".'
+      ''
+      
+        'Note: You can be more than 2 persons in a chat. All individuals ' +
+        'in a Chat must be on the same "Channel", and use the same Encryp' +
+        'tion Key, '
+      'OBS: Channel-names must be unique  (worldwide). '
+      
+        'By "accident", other than your "friends" might end up on the sam' +
+        'e "channel". '
+      
+        'But as all text is encrypted, only people having the exact, 100%' +
+        ' right Encryption Key, will be able to read the chat-lines.'
+      ''
+      
+        'You CAN also choose to send chat-lines/text in clear/plain text.' +
+        'Thereby you can communicate with ordinary IRC Chat-Client progra' +
+        'ms, and users.'
+      ''
+      
+        'This program can use two server types:  A standard IRC and speci' +
+        'al MyCryptCHAT-server.'
+      'For normal usage, select and connect to an IRC server. '
+      
+        'Internet Relay Chat (IRC) servers are found all over the world o' +
+        'n the Internet, and usage is free of charge.'
+      ''
+      
+        'As default, a danish IRC server is used in Setup, but if operati' +
+        'ng outside Denmark, choose a local IRC server.'
+      'Find your nearest IRC server using "Google".'
+      ''
+      
+        'All channels you create/use wil have the '#39'#'#39' prefix, so that you' +
+        ' can communicate with other users, on other servers, all over th' +
+        'e world.'
+      ''
+      
+        'You can verify that your communication is crypted, byconnecting ' +
+        'to same channel, using (e.g.) this web-based IRC-client: http://' +
+        'chat.efnet.org/irc.cgi'
+      ''
+      
+        'There are NO backdoors in this program. Your chat data are safe.' +
+        '  But remember that your location (IP address etc.) is no secret' +
+        '!'
+      ''
+      
+        'Also have a look on the free Encryption program: MyCrypt  found ' +
+        'on www.MyCrypt.dk'
+      
+        'Can work on files, and can send encrypted files via SMTP email. ' +
+        'Can also encrypt simple text so it can be used in emails, chats,' +
+        ' SMS etc. '
+      ''
+      
+        '                                                                ' +
+        '                               www.MyCrypt.dk')
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+end

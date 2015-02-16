@@ -1,0 +1,28 @@
+unit Unit4;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TMyCryptCHATdataflow = class(TForm)
+    Memo1: TMemo;
+    Memo2: TMemo;
+    Label1: TLabel;
+    Label2: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MyCryptCHATdataflow: TMyCryptCHATdataflow;
+
+implementation
+
+{$R *.dfm}
+
+end.

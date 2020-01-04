@@ -21,3 +21,4 @@ begin
   Application.CreateForm(TIRClog, IRClog);
   Application.Run;
 end.
+{Jan test edit via github }
